@@ -20,7 +20,10 @@ def predict_sentiment(input_data, datasets):
         # Lakukan prediksi menggunakan model
         prediction = model.predict(input_vectorized)
 
-        predictions[dataset] = prediction[0]
+        if prediction[0] == 0:
+            predictions[dataset] = "Negatif"
+        else:
+            predictions[dataset] = "Positif"
     return predictions
 
 # Daftar dataset
