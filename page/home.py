@@ -27,15 +27,6 @@ def show():
         Support Vector Machine (SVM) adalah salah satu algoritma pembelajaran mesin yang paling populer dan kuat yang digunakan untuk klasifikasi dan regresi. 
         Dalam konteks analisis sentimen, SVM digunakan untuk mengklasifikasikan teks ke dalam kategori sentimen positif, negatif, atau netral. 
         Algoritma SVM bekerja dengan mencari hyperplane optimal yang memisahkan kelas-kelas dalam ruang fitur yang memiliki margin terbesar.
-        
-        Kelebihan SVM:
-        - **Efektif dalam ruang berdimensi tinggi**: SVM sangat efektif dalam menangani data dengan banyak fitur.
-        - **Hemat memori**: Hanya sebagian dari poin data yang digunakan dalam menentukan hyperplane (vektor pendukung).
-        - **Fleksibilitas**: Dapat menggunakan kernel trick untuk menangani data yang tidak linear.
-
-        Kelemahan SVM:
-        - **Kinerja lambat pada dataset besar**: Pada dataset yang sangat besar, SVM bisa menjadi lambat.
-        - **Pemilihan kernel**: Memilih kernel yang tepat bisa menjadi kompleks dan memerlukan penyesuaian yang tepat untuk mendapatkan hasil terbaik.
     """)
 
     st.subheader("Daftar Dataset yang Digunakan")
